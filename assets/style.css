@@ -24,14 +24,20 @@ body{
     padding: 30px;
 }
 #menu{
-    border: 0px;
-    margin-left: 0px;
+    margin-left: 40%;
     padding: 30px;
     height: 30px;
     float: left;
     color: #777777;
     font-family: arial;
     font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+}
+a{
+	color:#777777;
+	text-decoration: none;
 }
 .main_section{
     border: 0px;
@@ -84,4 +90,14 @@ h1{
     border-top: #4aaaa5;
     border-top-width: 11px;
     border-style: solid;
+    margin: 2% 0px 0px 0px;
+}
+#icons_section{
+	display: flex;
+    width: 153px;
+    justify-content: space-between;
+    border: 0px;
+    margin: 0px;
+    padding: 4% 0% 0% 18%;
+
 }
